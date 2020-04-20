@@ -1,23 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import DaveSux from './DaveSux';
+import SearchContainer from './SearchContainer'
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      list: []
-    }
-   
-  }
-
-  render() {
-    return (
-      <DaveSux />
-    )
-  }
+function App() {
+  return (
+    <div className="App">
+      <SearchContainer />
+    </div>
+  );
 }
-
 
 export default App;
